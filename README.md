@@ -1,1 +1,4 @@
-# This is homework from RubySchool.us for lesson 30.
+sinatra-bootstrap-clean
+=======================
+
+Cleaned version of https://github.com/bootstrap-ruby/sinatra-bootstrap
