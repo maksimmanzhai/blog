@@ -4,6 +4,6 @@ class CreateMessages < ActiveRecord::Migration[5.2]
   		t.text :text
   		t.text :datestamp
   		t.timestamps
-  	end
+  	end #5. rake db:migrate
   end
 end

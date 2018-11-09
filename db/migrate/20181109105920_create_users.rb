@@ -3,6 +3,6 @@ class CreateUsers < ActiveRecord::Migration[5.2]
   	create_table :users do |t|
   		t.text :name
   		t.timestamps
-  	end
+  	end #5. rake db:migrate
   end
 end
