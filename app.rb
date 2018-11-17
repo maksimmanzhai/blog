@@ -4,7 +4,7 @@ require 'sinatra'
 require 'sinatra/reloader'
 require 'sinatra/activerecord'
 
-set :database, "sqlite3:blog2.db"
+#set :database, "sqlite3:blog2.db"
 
 class Content < ActiveRecord::Base
 	validates :username, presence: true, length: {minimum: 3}
