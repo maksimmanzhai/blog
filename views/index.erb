@@ -1,1 +1,12 @@
-<h2>Dashboard</h2>
+<h1>Dashboard</h1>
+<br />
+<% @contents.each do |content| %>
+	<p>
+		<h4><%= content.message %></h4>
+<small class="form-text text-muted"><%= content.username %> added at <%= content.created_at %></small>
+		
+	<br/>
+</p>
+
+<hr />
+<% end %>

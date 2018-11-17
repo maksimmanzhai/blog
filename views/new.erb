@@ -1,0 +1,16 @@
+<h2>Add your text</h2>
+
+<form action="/new" method="POST" role="form">
+
+  <div class="form-group">
+    <input type="text" name="content[username]" class="form-control" placeholder="Enter your username" value="<%= @c.username %>">
+  </div>
+
+  <div class="form-group">
+		<textarea type="text" name="content[message]"class="form-control"placeholder="Enter your text"value="<%= @c.message %>" rows="5"></textarea>
+		<small id="messageHelp" class="form-text text-muted">Maximum 140 symbols</small>
+	</div>
+
+  <button type="submit" class="btn btn-primary">Submit</button>
+
+</form>
