@@ -9,9 +9,3 @@ gem "sinatra-contrib"
 group :development do
 	gem "tux"
 end
-
-group :production do
-	gem "rails_12factor"
-end
-
-ruby "2.5.1"
